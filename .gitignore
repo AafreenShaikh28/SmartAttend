@@ -1,0 +1,52 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# --- Virtual environments ---
+venv/
+env/
+.venv/
+
+# --- Environment variables / secrets ---
+.env
+.env.*
+!.env.example
+
+# --- IDE / editor ---
+.vscode/
+.idea/
+*.swp
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+
+# --- Uploaded student images / face data (do not commit real student data) ---
+storage/
+Backend/storage/
+
+# --- InsightFace model cache (large binary files, re-downloaded automatically) ---
+.insightface/
+
+# --- Database files (if using local/sqlite for testing) ---
+*.sqlite3
+*.db
+
+# --- Distribution / build artifacts ---
+build/
+dist/
+*.egg-info/
+
+# --- Jupyter checkpoints (if any notebooks are added later) ---
+.ipynb_checkpoints/
+
+# --- Frontend (if SmartAttendFrontend uses node) ---
+node_modules/
+SmartAttendFrontend/node_modules/
+SmartAttendFrontend/dist/
+SmartAttendFrontend/build/
